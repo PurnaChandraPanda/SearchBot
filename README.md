@@ -7,6 +7,7 @@ This bot sample talks about integrating C# v4 SDK bot service app with Bing sear
 -	Create bot service SDK app with "Core Bot" template.
 -	Add nuget package [Microsoft.Azure.CognitiveServices.Search.WebSearch](https://www.nuget.org/packages/Microsoft.Azure.CognitiveServices.Search.WebSearch/) via package manager.
 -	The [quickstart doc](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/web-search-sdk-quickstart) has good discussion how to work in client side for the Bing Search service.
+-	Create "Bing Search" service on Azure portal, and copy key value for .NET activities.
 -	Following is the core logic:
 ```diff
     // SearchAsync operation have various parameters exposed, which can be utilized for search service query filtering.
